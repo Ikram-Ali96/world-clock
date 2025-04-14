@@ -36,7 +36,7 @@ function updateCity(event) {
     citiesElement.innerHTML =
     `<div class="city">
         <div>
-        <h2>${cityTimeZone}</h2>
+        <h2>${cityName}</h2>
         <div class="date">${citytime.format("MMM Do YYYY")}</div>
         </div>
         <div class="time">${citytime.format("h:mm:ss")}<small>${citytime.format("A")}</small></div>
