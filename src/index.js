@@ -42,11 +42,12 @@ function updateCity(event) {
         <div class="time">${citytime.format("h:mm:ss")}<small>${citytime.format("A")}</small></div>
      </div>
      <a href="/">Back</a>`;
-     
+
 }
 
 updateTime();
 setInterval(updateTime, 1000);
+setInterval(updateCity, 1000);
 
 let cictiesSelectElement = document.querySelector("#city");
 
