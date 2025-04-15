@@ -46,8 +46,7 @@ function updateCity(event) {
 }
 
 updateTime();
-setInterval(updateTime, 1000);
-setInterval(updateCity, 1000);
+setInterval(updateTime, updateCity, 1000);
 
 let cictiesSelectElement = document.querySelector("#city");
 
